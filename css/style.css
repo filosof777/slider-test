@@ -13,24 +13,9 @@
   transition: all 0.4s ease;
 }
 
-.item:nth-child(1) {
-  left: 0;
-}
-
-.item:nth-child(2) {
-  left: 100%;
-}
-
-.item:nth-child(3) {
-  left: 200%;
-}
-
-.item:nth-child(4) {
-  left: 300%;
-}
-
-.item:nth-child(5) {
-  left: 400%;
+.list {
+  display: flex;
+  transition: all 0.4s ease;
 }
 
 .img {
